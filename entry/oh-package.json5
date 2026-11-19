@@ -1,0 +1,10 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "松山研学应用主模块：离线知识库检索、多路感知融合、记忆调度与云端大模型兜底问答。",
+  "main": "",
+  "author": "DKQ857",
+  "license": "MIT",
+  "dependencies": {}
+}
+

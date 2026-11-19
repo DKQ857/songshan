@@ -1,0 +1,46 @@
+# ---- HarmonyOS / OpenHarmony 构建产物 ----
+oh_modules/
+**/oh_modules/
+.hvigor/
+**/.hvigor/
+build/
+**/build/
+.preview/
+**/.preview/
+.cxx/
+**/.cxx/
+.test/
+**/.test/
+node_modules/
+**/node_modules/
+
+# ---- 签名与证书材料（切勿提交）----
+*.p12
+*.cer
+*.csr
+*.p7b
+*.jks
+*.keystore
+signingConfigs/
+签名密钥/
+
+# ---- 本地环境与密钥 ----
+local.properties
+.env
+.env.*
+*.local
+*.secrets
+
+# ---- IDE / 个人配置 ----
+.idea/
+*.iml
+.history/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---- 日志与临时文件 ----
+*.log
+*.tmp
+*.swp
+*.bak
